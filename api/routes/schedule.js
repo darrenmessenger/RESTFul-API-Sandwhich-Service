@@ -24,10 +24,10 @@ router.get('/:orderId', (req, res, next) => {
         })
         return;
     }
+    
     res.status(200).json({
         message: 'Returning an individual order',
         order: individualOrder,
-        id: id
     })
 })
 
