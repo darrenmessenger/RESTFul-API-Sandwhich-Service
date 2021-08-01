@@ -25,10 +25,4 @@ app.use((error, req, res, next) => {
     })
 })
 
-// app.get('/', (req, res) => {
-//     res.send('Hello World');
-// })
-
-// app.listen(3000, () => console.log('Listening on Port 3000'));
-
 module.exports = app;
